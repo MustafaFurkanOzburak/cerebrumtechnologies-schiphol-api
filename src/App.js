@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div >
-      <div className="Search">
+      <div className="search">
         <input type="text" placeholder='Deckflight search'/>
         <button>Search</button>
       </div>
