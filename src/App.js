@@ -1,6 +1,8 @@
 import React, {useState} from 'react';
-import "./images/mainFlight.jpg"
+
+import "./images/mainFlight.jpg";
 import './App.css';
+
 
 function App() {
   const APP_KEY = "e4ac444289079f2961f3f69de9df3688"
@@ -21,7 +23,6 @@ function App() {
   }
   return (
     <>
-    
     <nav>
       <h1>Cerebrum<br/>Airlines</h1>
       <ul>
