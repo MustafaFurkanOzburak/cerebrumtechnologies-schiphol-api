@@ -21,17 +21,12 @@ function App() {
   }
   return (
     <>
-    <div >
-      <div className="search">
-        <input type="text" placeholder='Deckflight search' onChange={flightText}/>
-        <button onClick={() => getdata(flightimput)}>Search</button>
-      </div>
-    </div>
+    
     <nav>
-      <h1>LOGO</h1>
+      <h1>Cerebrum<br/>Airlines</h1>
       <ul>
-        <li>Main Page</li>
-        <li>Departure</li>
+        <li>Main_Page</li>
+        <li><a href="./companents/Departure.js">Departure</a></li>
         <li>Arrival</li>
         <li>About_us</li>
         <li>Contect</li>

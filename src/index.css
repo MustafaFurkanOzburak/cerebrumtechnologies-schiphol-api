@@ -19,13 +19,14 @@ nav{
 
 ul{
   display: flex;
-  width: 50%;
+  width: 60%;
   justify-content: space-between;
   list-style: none;
 }
 
 h1{
   letter-spacing: 3px;
+  border-color: rgb(97, 97, 241);
 }
 
 .backimages
@@ -38,7 +39,7 @@ h1{
 }
 .search
 {
-  min-height: 10vh;
+  min-height: 7vh;
   display: flex;
   justify-content: center;
   align-items: center;
