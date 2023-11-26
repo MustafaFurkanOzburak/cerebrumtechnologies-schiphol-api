@@ -1,0 +1,36 @@
+*
+{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.StyledHeader
+{
+    height: 8vh;
+    background-color: #72A0C1;
+    padding: 0 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-container
+{
+    flex: 0.5;
+
+}
+.menu-container
+{
+    flex: 1;
+
+}
+.ul li{
+    float: left;
+    color: white;
+}
+ul li:not(:first-child)
+{
+    margin-left: 20;
+}
