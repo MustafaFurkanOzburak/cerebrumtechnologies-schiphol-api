@@ -1,5 +1,5 @@
-import React from 'react';
-import Logo from '../images/airport';
+import React from "react";
+import Logo from "../images/airport.png";
 
 function Navbar() {
   return (
@@ -7,11 +7,11 @@ function Navbar() {
     <div className='leftSide'>
         <img src={Logo} alt="logo"/>
     </div>
-    <div className=''>
+    <div className='rightSide'>
 
     </div>
   </div>
   )
 }
 
-export default Header
+export default Navbar
