@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import "./images/mainFlight.jpg"
 import './App.css';
 
 function App() {
@@ -19,12 +20,25 @@ function App() {
     console.log(result)
   }
   return (
+    <>
     <div >
       <div className="search">
         <input type="text" placeholder='Deckflight search' onChange={flightText}/>
         <button onClick={() => getdata(flightimput)}>Search</button>
       </div>
     </div>
+    <nav>
+      <h1>LOGO</h1>
+      <ul>
+        <li>Main Page</li>
+        <li>Departure</li>
+        <li>Arrival</li>
+        <li>About_us</li>
+        <li>Contect</li>
+      </ul>
+    </nav>
+    <section className="backimages"></section>
+    </>
   );
 }
 
